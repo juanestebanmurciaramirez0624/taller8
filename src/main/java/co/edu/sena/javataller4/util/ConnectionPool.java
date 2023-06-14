@@ -7,8 +7,8 @@ import org.apache.commons.dbcp2.BasicDataSource;
 
 public class ConnectionPool {
   private static String url = "jdbc:mysql://localhost:3306/Javataller?serverTimezone=America/Bogota";
-  private static String user = "root";
-  private static String pass = "";
+  private static String user = "JuanEsteban";
+  private static String pass = "JuanContraseña45";
   private static BasicDataSource pool;
   public static BasicDataSource
  getInstance() throws SQLException {
