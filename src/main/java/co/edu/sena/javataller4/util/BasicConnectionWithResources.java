@@ -8,8 +8,8 @@ public class BasicConnectionWithResources
     {
         String url =
                 "jdbc:mysql://localhost:3306/Javataller?serverTimezone=America/Bogota";
-        String username = "root";
-        String password = "";
+        String username = "JuanEsteban";
+        String password = "JuanContraseña45";
         String sql = "SELECT * FROM users_tbl";
         try (Connection conn = DriverManager.getConnection(url, username, password);
              Statement stmt = conn.createStatement();
